@@ -9,7 +9,6 @@ RUN cargo install --path .
 
 
 
-#FROM debian:buster-slim
 FROM alpine:3.15.4
 
 WORKDIR /usr/src/app
